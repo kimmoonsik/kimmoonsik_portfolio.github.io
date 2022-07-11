@@ -1,0 +1,149 @@
+/* 공통 */
+
+.contents{
+    padding-top: min(80px, 10vw);
+    max-width: 1200px;
+    width: 96%; 
+    margin: 0 auto;
+}
+
+.page_tit{
+    font-size: min(64px, 7vw);
+    font-weight: 900;
+}
+
+.content_sec{
+    margin-top: min(80px, 14vw);
+}
+
+.section_tit{
+    font-size: min(52px, 7vw);
+    font-weight: 900;
+}
+
+.section_tit + p{
+    font-family: 'GmarketSansLight';
+    font-size: min(20px, 3.8vw);
+    padding-top: min(20px, 3vw);
+    max-width: 632px;
+}
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+/*헤더*/
+header{
+    background:#fff;
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+header h1{
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1.on::after{
+    content:"";
+    width: 180px;
+    height: 10px;
+    background:#272425;
+    position: absolute;
+    right: 0;
+    bottom: -11px;
+}
+
+header h1 a{
+    color: #151515;
+    font-family: 'GmarketSansBold';
+    font-size: min(24px, 4vw);
+    line-height: min(80px, 16vw);
+}
+
+/* 푸터 */
+footer{
+    background: #282828;
+    padding: min(44px, 10vw) 2%;
+    color: #c7c7c7;
+    font-weight: 300;
+    font-size: min(16px, 4vw);
+    text-align: center;
+    position: relative;
+}
+
+.btn_top{
+    display: block;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    bottom: 10vw;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.2);
+}
+
+footer h2{
+    font-family: 'GmarketSansBold';
+    font-size: min(24px, 4vw);
+}
+
+footer address{
+    margin: min(30px, 14vw);
+}
+
+footer address span, footer address a{
+    color: #f4f4f4;
+    font-weight: 400;
+}
+
+footer address br:last-of-type{
+    display: none;
+}
+
+footer p{
+    font-size: min(14px, 4vw);
+}
+
+@media screen and (min-width: 1200px){
+  .btn_top{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1199px){
+  .btn_top{
+    display: block;
+  }
+}
+@media screen and (max-width: 844px){
+    .contents {
+        width: 86% !important;
+    }
+    
+    footer address br:last-of-type{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px){
+    header h1.on::after{
+        display: none;
+    }
+
+    .btn_top{
+        display: block;
+    } 
+}
