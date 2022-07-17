@@ -92,7 +92,7 @@
 
 .link h3, .logo h3{
     font-size: min(38px, 5vw);
-    margin-bottom: min(45px, 9vw);
+    margin-bottom: min(20px, 9vw);
 }
 
 .link .btn_wrap a{
