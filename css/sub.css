@@ -85,12 +85,12 @@
 }
 
 /* 링크 로고 포폴 이미지 */
-.link, .logo, .portpolio{
+.link, .logo, .portpolio, .issue{
     margin-top: min(50px, 15vw); 
     font-family: 'GmarketSansMedium';
 }
 
-.link h3, .logo h3{
+.link h3, .logo h3, .issue h3{
     font-size: min(38px, 5vw);
     margin-bottom: min(20px, 9vw);
 }
@@ -119,11 +119,11 @@
     margin-top: -7px;
 }
 
-.link .comment, .logo .comment{
+.link .comment, .logo .comment, .issue .comment{
     font-family: 'GmarketSansLight';
     color: #212121;
     margin: 20px 0;
-    font-size: min(16px, 4vw);
+    font-size: min(18px, 4vw);
 }
 
 .logo img, .portpolio img{
