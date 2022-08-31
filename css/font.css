@@ -1,0 +1,44 @@
+/*
+Noto Sans CJK KR Thin
+font-weight: 100;
+
+Noto Sans CJK KR Light
+font-weight: 300;
+
+Noto Sans CJK KR DemiLight
+font-weight: 300;
+
+Noto Sans CJK KR Regular
+font-weight: 400;
+
+Noto Sans CJK KR Medium
+font-weight: 500;
+
+Noto Sans CJK KR Bold
+font-weight: 700;
+
+Noto Sans CJK KR Black
+font-weight: 900;
+*/
+
+/* 지마켓 산스 */
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
