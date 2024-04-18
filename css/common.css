@@ -8,7 +8,7 @@
 }
 
 .page_tit{
-    font-size: min(64px, 7vw);
+    font-size: min(64px, 7.5vw);
     font-weight: 900;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .section_tit{
-    font-size: min(52px, 6vw);
+    font-size: min(52px, 5.5vw);
     font-weight: 900;
 }
 
